@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Step 1</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+    <div th:insert="fragments/_header :: header"></div>
+    <h2>Step 1: Get what you need</h2>
+    <p>To eat cereal, you need 4 things: the cereal of your choice, a bowl, a spoon, and milk, though milk is optional. You should get all of these out and set them on a countertop or a table, making sure you have enough room to pour the milk if you are going to use it.</p>
+    <p>In this example, we will be eating life cereal without milk. We need the box of cereal (though yours might come in a bag), a bowl, and a spoon.</p>
+    <img th:src="@{/img/preparing.jpg}" alt="Box of cereal, bowl, and spoon.">
+    <div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

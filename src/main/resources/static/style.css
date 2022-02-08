@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(58, 122, 134, 0.85);
+    color: rgba(96, 42, 94, 0.85);
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    min-width: 400px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+img{
+    max-width: 500px;
+    min-width: 300px;
+    width: auto;
+}
+header{
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: large;
+}
+
+header a:link{
+    color: rgba(94, 42, 42, 0.85);
+    text-decoration: none;
+}
+header a:hover{
+    background-color: rgba(94, 42, 42, 0.85);
+    color: white;
+    text-decoration: none;
+}
+header a:active{
+    color: white;
+    text-decoration: none;
+}
+header a:visited{
+    color: white;
+    text-decoration: none;
+}
